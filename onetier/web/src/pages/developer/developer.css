@@ -1,0 +1,16 @@
+.dv-swatch { width: 26px; height: 26px; border-radius: 7px; border: 2px solid transparent; cursor: pointer; box-shadow: inset 0 0 0 1px rgba(0,0,0,.08); }
+.dv-swatch.active { border-color: var(--text); box-shadow: 0 0 0 2px var(--surface) inset; }
+.dv-colorinput { width: 30px; height: 28px; padding: 0; border: 1px solid var(--border-strong); border-radius: 7px; background: var(--surface); cursor: pointer; }
+.dv-op { display: flex; gap: 12px; align-items: center; padding: 12px 16px; border-bottom: 1px solid var(--border); cursor: pointer; }
+.dv-op:last-child { border-bottom: 0; }
+.dv-op:hover { background: var(--surface-2); }
+.dv-method { font-family: var(--mono); font-size: 11px; font-weight: 700; padding: 2px 6px; border-radius: 4px; background: var(--surface-3); color: var(--text-2); min-width: 50px; text-align: center; }
+.dv-method.GET { color: var(--success); background: var(--success-bg); }
+.dv-method.POST { color: var(--info); background: var(--info-bg); }
+.dv-method.PUT, .dv-method.PATCH { color: var(--warning); background: var(--warning-bg); }
+.dv-method.DELETE { color: var(--danger); background: var(--danger-bg); }
+.dv-fieldrow { display: grid; grid-template-columns: 1fr 1fr 110px auto auto; gap: 6px; align-items: center; margin-bottom: 6px; }
+.dv-fieldrow .help-in { grid-column: 1 / -1; }
+@media (max-width: 720px) { .dv-fieldrow { grid-template-columns: 1fr 1fr; } .dv-intro { display: none; } }
+.dv-section { font-size: 11.5px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--text-3); margin: 18px 0 10px; }
+.dv-savebar { position: sticky; bottom: 0; z-index: 5; margin-top: 16px; }

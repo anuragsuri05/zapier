@@ -1,0 +1,15 @@
+.ap-chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.ap-chip { border: 1px solid var(--border); background: var(--surface); color: var(--text-2); font: inherit; font-size: 12.5px; font-weight: 550; padding: 5px 11px; border-radius: 99px; cursor: pointer; display: inline-flex; gap: 6px; align-items: center; }
+.ap-chip span { font-size: 11px; color: var(--text-3); }
+.ap-chip:hover { border-color: var(--border-strong); color: var(--text); }
+.ap-chip.active { background: var(--brand); border-color: var(--brand); color: #fff; }
+.ap-chip.active span { color: rgba(255,255,255,.8); }
+.ap-card { padding: 16px; display: flex; flex-direction: column; gap: 10px; text-decoration: none !important; min-height: 150px; }
+.ap-desc { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.ap-build { border-style: dashed; background: var(--surface-2); }
+.ap-hero { display: flex; gap: 18px; align-items: flex-start; flex-wrap: wrap; }
+.ap-op { padding: 14px 16px; border-bottom: 1px solid var(--border); }
+.ap-op:last-child { border-bottom: 0; }
+.ap-fields { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.ap-field { font-size: 11.5px; padding: 2px 8px; border-radius: 5px; background: var(--surface-3); color: var(--text-2); font-family: var(--mono); }
+.ap-field .req { color: var(--danger); }

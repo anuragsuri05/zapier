@@ -1,0 +1,28 @@
+/* Auth pages (login / signup / invite) */
+.auth-aside h2.auth-headline { font-size: 34px; line-height: 1.15; font-weight: 800; letter-spacing: -0.03em; max-width: 440px; color: #fff; }
+.auth-aside .logo { color: #fff; }
+.auth-aside .auth-sub { color: rgba(255, 255, 255, 0.82); margin-top: 14px; font-size: 15px; max-width: 420px; }
+.auth-bullets { list-style: none; padding: 0; margin: 28px 0 0; display: flex; flex-direction: column; gap: 14px; }
+.auth-bullets li { display: flex; gap: 12px; align-items: flex-start; font-size: 14.5px; color: rgba(255, 255, 255, 0.92); }
+.auth-bullets .auth-bullet-icon { width: 30px; height: 30px; border-radius: 9px; background: rgba(255, 255, 255, 0.16); display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.auth-bullets .auth-bullet-icon svg { width: 16px; height: 16px; }
+.auth-bullets b { display: block; color: #fff; font-weight: 650; }
+.auth-quote { background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.18); border-radius: 14px; padding: 18px 20px; max-width: 460px; backdrop-filter: blur(4px); }
+.auth-quote p { font-size: 14px; color: rgba(255, 255, 255, 0.95); line-height: 1.55; }
+.auth-quote .auth-quote-by { display: flex; align-items: center; gap: 10px; margin-top: 12px; font-size: 12.5px; color: rgba(255, 255, 255, 0.8); }
+.auth-quote .auth-quote-by b { color: #fff; display: block; }
+.auth-card h1 { font-size: 26px; letter-spacing: -0.02em; }
+.auth-card .auth-lede { color: var(--text-2); margin: 6px 0 24px; }
+.auth-card .auth-foot { margin-top: 20px; text-align: center; color: var(--text-2); font-size: 13.5px; }
+.auth-mobile-logo { display: none; margin-bottom: 24px; }
+@media (max-width: 900px) { .auth-mobile-logo { display: block; } }
+.pw-wrap { position: relative; }
+.pw-wrap .input { padding-right: 42px; }
+.pw-wrap .pw-toggle { position: absolute; right: 4px; top: 4px; height: 28px; width: 34px; border: 0; background: none; color: var(--text-3); cursor: pointer; border-radius: 5px; display: inline-flex; align-items: center; justify-content: center; }
+.pw-wrap .pw-toggle:hover { color: var(--text); background: var(--surface-3); }
+.pw-wrap .pw-toggle svg { width: 16px; height: 16px; }
+.pw-meter { display: flex; gap: 4px; margin-top: 2px; }
+.pw-meter span { flex: 1; height: 4px; border-radius: 4px; background: var(--surface-3); transition: background .2s; }
+.auth-error { margin-bottom: 14px; }
+.invite-card { text-align: center; }
+.invite-card .invite-ws { width: 64px; height: 64px; border-radius: 18px; background: var(--brand-50); color: var(--brand); display: inline-flex; align-items: center; justify-content: center; font-size: 26px; font-weight: 800; margin-bottom: 16px; }
